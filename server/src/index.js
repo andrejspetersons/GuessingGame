@@ -6,7 +6,7 @@ const PORT=5000
 app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://guessing-game-client-six.vercel.app',
     methods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
     allowedHeaders: 'Origin, Content-Type,X-Requested-With'
 }))
